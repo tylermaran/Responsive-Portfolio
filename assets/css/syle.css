@@ -213,6 +213,7 @@ input[type=submit] {
 	top: 105%;
 	left: 33%;
 	margin: 0px 0px 0px 0px;
+	margin-bottom: 100px;
 	}
 
 
@@ -227,6 +228,7 @@ input[type=submit] {
 	position: absolute;
 	margin-left:10%; 
 	width: 80%;
+	font-size: 120%;
 	}
 	
 	.name {
@@ -281,9 +283,9 @@ input[type=submit] {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	top: 925%;
+	top: 1220%;
 	left: 33%;
-	margin: 0px 0px 0px 0px;
+	margin: 10px 0px 100px 0px;
 	}
 	.underline {
 		visibility: hidden;

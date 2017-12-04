@@ -192,23 +192,30 @@ input[type=submit] {
 @media screen and (max-width: 980px){
 
 
+	body {
+		max-width: 980px;
+	}
+
 	.name {
 	background-color: #4aaaa5;
 	}
 
-
-	.connectWithMe {
-	position: absolute;
-	float: top;
-	margin-left: 75px;
-	}
-
 	.mainContent {
-	position: absolute;
+	position: relative;
 	width: 80%;
 	margin-left:8%; 
 
 	}
+	.connectWithMe {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	top: 105%;
+	left: 33%;
+	margin: 0px 0px 0px 0px;
+	}
+
+
 
 }
 
@@ -270,6 +277,18 @@ input[type=submit] {
 	padding: 5px 15px 15px 5px; 
 	}
 
+	.connectWithMe {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	top: 925%;
+	left: 33%;
+	margin: 0px 0px 0px 0px;
+	}
+	.underline {
+		visibility: hidden;
+	}
+
 }
 
 
@@ -285,7 +304,7 @@ input[type=submit] {
 	}
 	
 	.name {
-	background-color: pink;
+	background-color: #4aaaa5;
 	}
 
 	footer {
@@ -296,11 +315,22 @@ input[type=submit] {
 	width: 100%;
 	}
 
-	#tylerMaran {
-	float: left;
-	width: 10%;
-	height: 10%;
-	padding: 5px 15px 15px 5px; 
+	h2 {
+		padding-top:15px; 
+	}
+
+	.connectWithMe {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	top: 100%;
+	left: 50%;
+	height: 0px;
+	width: 175px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 50%;
+	border-style: none;
 	}
 
 }
